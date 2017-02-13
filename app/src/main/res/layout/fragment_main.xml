@@ -83,5 +83,10 @@
                 style="@style/style_btn"
                 android:text="TokenFragment" />
 
+        <Button
+                android:id="@+id/btn_primary"
+                style="@style/style_btn"
+                android:text="PrimaryFragment" />
+
     </LinearLayout>
 </ScrollView>

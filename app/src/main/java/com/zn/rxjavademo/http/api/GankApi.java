@@ -1,7 +1,4 @@
-// (c)2016 Flipboard Inc, All Rights Reserved.
-
 package com.zn.rxjavademo.http.api;
-
 
 import com.zn.rxjavademo.domain.BeautyResult;
 import retrofit2.http.GET;

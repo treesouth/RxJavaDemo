@@ -22,7 +22,6 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, null);
         ButterKnife.bind(this, view);
-        KLog.e();
         return view;
     }
 
@@ -84,6 +83,11 @@ public class MainFragment extends Fragment {
     @OnClick(R.id.btn_token)
     void btn_token() {
         open(new TokenFragment());
+    }
+
+    @OnClick(R.id.btn_primary)
+    void btn_primary() {
+        open(new PrimaryFragment());
     }
 
     /**
