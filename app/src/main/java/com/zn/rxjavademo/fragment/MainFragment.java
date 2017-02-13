@@ -76,6 +76,11 @@ public class MainFragment extends Fragment {
         open(new ReuseSubscriberFragment());
     }
 
+    @OnClick(R.id.btn_combineLatest)
+    void btn_combineLatest() {
+        open(new CombineLatestFragment());
+    }
+
     /**
      *
      * 开启新的Fragment
