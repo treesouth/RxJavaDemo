@@ -78,5 +78,10 @@
                 style="@style/style_btn"
                 android:text="CombineLatest" />
 
+        <Button
+                android:id="@+id/btn_token"
+                style="@style/style_btn"
+                android:text="TokenFragment" />
+
     </LinearLayout>
 </ScrollView>

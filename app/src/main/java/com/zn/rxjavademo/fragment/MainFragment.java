@@ -81,8 +81,12 @@ public class MainFragment extends Fragment {
         open(new CombineLatestFragment());
     }
 
+    @OnClick(R.id.btn_token)
+    void btn_token() {
+        open(new TokenFragment());
+    }
+
     /**
-     *
      * 开启新的Fragment
      */
     private void open(Fragment fragment) {
